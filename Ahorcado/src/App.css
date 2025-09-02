@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+
+
+body {
+    
+    font-family: "TASA Orbiter", ui-sans-serif, system-ui, -apple-system,
+      BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+  /* Asegura que imágenes/SVG se reduzcan en móvil sin deformarse */
+  img, svg, canvas, video {
+    max-width: 100%;
+    height: auto;
+  }
